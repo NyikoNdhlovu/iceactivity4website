@@ -3,7 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stickz Store</title>
+    <title>Stickz Store</title> 
+   <style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+        color: #0b0b0b;
+    }
+    nav {
+        background-color: #222;
+        padding: 1em 2em;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #f0c000;
+    }
+
+    header {
+        text-align: center;
+        padding: 2em 1em;
+        background: linear-gradient(135deg, #222, #444);
+        color: white;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .logo h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.2em;
+    }
+
+    .logo p {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    p {
+        max-width: 800px;
+        margin: 2em auto;
+        line-height: 1.6;
+        padding: 0 1em;
+        font-size: 1.1em;
+    }
+
+    footer {
+        background-color: #222;
+        color: rgba(17, 16, 16, 0.96);
+        text-align: center;
+        padding: 1em;
+        margin-top: 3em;
+    }
+</style>  
+
+<style>
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2em;
+        padding: 2em;
+    }
+
+    .product {
+        background: rgb(241, 239, 239);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(15, 14, 14, 0.85);
+        padding: 1em;
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .product img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+</style>
+
 </head> 
 <nav> 
 <a href="index.html">Home</a>
@@ -15,24 +109,24 @@
  
  <section id="store"> 
     <h2>Our Products</h2>
-    <p>Browse our collection of high-quality drumsticks and accessories:</p>
+    <p>Browse our collection of high-quality drumsticks and accessories:</p> 
     <div class="products">
         <div class="product">
             <img src="drum-sticks-933186_640.jpg" alt="">
-            <h3>Premium Maple Drumsticks</h3>
+            <h3>Premium Maple Drumsticks</h3> 
             <P>R500.00</P>
             <button>Add to Cart</button>
         </div>
         <div class="product">
             <img src="electronic-drum-pad-5854409_1280.jpg" alt="">
-            <h3>Pro Carbon Fiber Sticks</h3>
+            <h3>Pro Carbon Fiber Sticks</h3> 
             <p>R300.00</p>
             <button>Add to Cart</button>
         </div>
         <div class="product">
             <img src="sticks-5037706_1280.jpg" alt=""> 
             <h3>Classic Hickory Drumsticks</h3>
-            <p>R499.99</p>
+            <p>R449.99</p> 
             <button>Add to Cart</button>
         </div>
     </div>
